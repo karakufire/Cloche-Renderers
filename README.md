@@ -27,8 +27,8 @@ Source codes are all rights reserved.
 
 
 ## Credit
-©2017 BluSunrize
-Copyright (c) defeatedcrow 2016-
-©2012-2021 Cult of the Full Hub / Team CoFH / CoFH
+©2017 BluSunrize  
+Copyright (c) defeatedcrow 2016-  
+©2012-2021 Cult of the Full Hub / Team CoFH / CoFH  
 
 ©2024- karakufire
