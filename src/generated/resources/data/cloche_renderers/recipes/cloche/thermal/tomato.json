@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:tomato_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:tomato"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:tomato"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

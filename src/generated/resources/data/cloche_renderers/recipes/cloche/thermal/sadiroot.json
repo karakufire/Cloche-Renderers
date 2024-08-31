@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:sadiroot_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:sadiroot"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:sadiroot"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

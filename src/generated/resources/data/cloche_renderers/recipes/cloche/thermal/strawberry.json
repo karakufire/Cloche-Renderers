@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:strawberry_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:strawberry"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:strawberry"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

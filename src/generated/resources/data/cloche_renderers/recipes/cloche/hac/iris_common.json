@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_iris_common"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_iris_common"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_iris_common"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

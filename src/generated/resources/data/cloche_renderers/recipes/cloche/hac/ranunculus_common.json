@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_ranunculus_common"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_ranunculus_common"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_ranunculus_common"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

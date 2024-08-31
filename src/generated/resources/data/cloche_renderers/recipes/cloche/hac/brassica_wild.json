@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_brassica_wild"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_brassica_wild"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_brassica_wild"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

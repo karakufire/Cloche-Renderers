@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:glowstone_mushroom_spores"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:glowstone_mushroom"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:glowstone_mushroom_spores"
+    }
+  ],
+  "soil": [
+    {
+      "item": "minecraft:podzol"
+    },
+    {
+      "item": "minecraft:mycelium"
+    }
+  ],
+  "time": 800
+}

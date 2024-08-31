@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:green_bean_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:green_bean"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:green_bean"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

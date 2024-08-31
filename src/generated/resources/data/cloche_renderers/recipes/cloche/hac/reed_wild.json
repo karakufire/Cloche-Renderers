@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_reed_wild"
+  },
+  "render": {
+    "type": "hac_crop_double",
+    "block": "dcs_climate:food/cropblock_reed_wild"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_reed_wild"
+    }
+  ],
+  "soil": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:mud"
+    }
+  ],
+  "time": 800
+}

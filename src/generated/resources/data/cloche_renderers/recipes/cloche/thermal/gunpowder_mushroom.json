@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:gunpowder_mushroom_spores"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:gunpowder_mushroom"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:gunpowder_mushroom_spores"
+    }
+  ],
+  "soil": [
+    {
+      "item": "minecraft:podzol"
+    },
+    {
+      "item": "minecraft:mycelium"
+    }
+  ],
+  "time": 800
+}

@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_capsicum_rare"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_capsicum_rare"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_capsicum_rare"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

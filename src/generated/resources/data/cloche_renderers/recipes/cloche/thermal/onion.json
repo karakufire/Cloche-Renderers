@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:onion_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:onion"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:onion"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

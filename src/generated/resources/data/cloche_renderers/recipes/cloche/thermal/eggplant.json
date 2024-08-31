@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "thermal:eggplant_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "thermal:eggplant"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "thermal:eggplant"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}

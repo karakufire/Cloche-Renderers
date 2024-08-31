@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_pedalia_rare"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_pedalia_rare"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "dcs_climate:food/crop_pedalia_rare"
+    }
+  ],
+  "soil": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "time": 800
+}

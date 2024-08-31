@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_mallow_epic"
+  },
+  "render": {
+    "type": "hac_crop_double",
+    "block": "dcs_climate:food/cropblock_mallow_epic"
+  },
+  "results": [
+    {
+      "item": "dcs_climate:food/crop_mallow_epic"
+    },
+    {
+      "item": "dcs_climate:food/food_mallow_calyces"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}
