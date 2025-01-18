@@ -60,6 +60,13 @@ public class Recipes extends RecipeProvider {
                 .setTime(800)
                 .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AL_GARLIC.get()))
                 .build(out, rl("cloche", "hac", "allium_rare"));
+        // 葱
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AL_LEEK.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AL_LEEK.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AL_LEEK.get()))
+                .build(out, rl("cloche", "hac", "allium_epic"));
         // 藜
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AM_GOOSEFOOT.get(), 2))
                 .addInput(new ItemStack(FoodInit.BLOCK_AM_GOOSEFOOT.get()))

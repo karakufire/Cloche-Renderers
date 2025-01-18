@@ -44,7 +44,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
         protected final Block block;
         protected final IClimateCrop alias;
         protected int maxStage;
-        protected IntegerProperty stageProperty = DCState.STAGE5;
+        protected IntegerProperty stageProperty = DCState.STAGE6;
 
         public AbstractRenderHaCCrop(Block block, CropGrowType growType) {
             this(block, growType, true);
@@ -57,7 +57,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
             this.alias = (IClimateCrop) this.block;
             if (this.alias.getGrowType(this.alias.getTier()) != growType && verbose)
                 ClocheRenderers.LOGGER.warn(String.format("Block %s grow type is not %s, thus may not be displayed correctly.", block.getDescriptionId(), growType.toString()));
-            this.maxStage = this.alias.getGrownState().getValue(DCState.STAGE5);
+            this.maxStage = this.alias.getGrownState(block.defaultBlockState()).getValue(stageProperty);
         }
 
         protected int age(float growth) {
@@ -79,7 +79,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
         @Override
         public Collection<Pair<BlockState, Transformation>> getBlocks(ItemStack stack, float growth) {
             return ImmutableList.of(Pair.of(
-                    this.block.defaultBlockState().setValue(DCState.STAGE5, this.age(growth)),
+                    this.block.defaultBlockState().setValue(stageProperty, this.age(growth)),
                     new Transformation(null)
             ));
         }
@@ -101,13 +101,13 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
             int age = this.age(growth);
             if (age > 1) {
                 return ImmutableList.of(
-                        Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age),
+                        Pair.of(this.block.defaultBlockState().setValue(stageProperty, age),
                                 new Transformation(null)),
-                        Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age).setValue(DCState.DOUBLE, true),
+                        Pair.of(this.block.defaultBlockState().setValue(stageProperty, age).setValue(DCState.DOUBLE, true),
                                 new Transformation(new Vector3f(0, 1, 0), null, null, null))
                 );
             }
-            return ImmutableList.of(Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age), new Transformation(null)));
+            return ImmutableList.of(Pair.of(this.block.defaultBlockState().setValue(stageProperty, age), new Transformation(null)));
         }
     }
 
@@ -126,22 +126,22 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
         public Collection<Pair<BlockState, Transformation>> getBlocks(ItemStack stack, float growth) {
             var age = this.age(growth);
             return List.of(
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, 0).setValue(DCState.EAST, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, 0).setValue(DCState.EAST, true),
                             new Transformation(new Vector3f(-0.875f, 0, 0), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, 0).setValue(DCState.WEST, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, 0).setValue(DCState.WEST, true),
                             new Transformation(new Vector3f(0.875f, 0, 0), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, 0).setValue(DCState.SOUTH, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, 0).setValue(DCState.SOUTH, true),
                             new Transformation(new Vector3f(0, 0, -0.875f), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, 0).setValue(DCState.NORTH, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, 0).setValue(DCState.NORTH, true),
                             new Transformation(new Vector3f(0, 0, 0.875f), null, null, null)),
 
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age).setValue(DCState.EAST, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, age).setValue(DCState.EAST, true),
                             new Transformation(new Vector3f(-0.875f, 1, 0), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age).setValue(DCState.WEST, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, age).setValue(DCState.WEST, true),
                             new Transformation(new Vector3f(0.875f, 1, 0), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age).setValue(DCState.SOUTH, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, age).setValue(DCState.SOUTH, true),
                             new Transformation(new Vector3f(0, 1, -0.875f), null, null, null)),
-                    Pair.of(this.block.defaultBlockState().setValue(DCState.STAGE5, age).setValue(DCState.NORTH, true),
+                    Pair.of(this.block.defaultBlockState().setValue(stageProperty, age).setValue(DCState.NORTH, true),
                             new Transformation(new Vector3f(0, 1, 0.875f), null, null, null))
             );
         }
