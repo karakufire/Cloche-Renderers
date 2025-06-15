@@ -67,6 +67,28 @@ public class Recipes extends RecipeProvider {
                 .setTime(800)
                 .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AL_LEEK.get()))
                 .build(out, rl("cloche", "hac", "allium_epic"));
+        // ブセファランドラ
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AR_BUCE.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AR_BUCE.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AR_BUCE.get()))
+                .build(out, rl("cloche", "hac", "aroid_wild"));
+        // タロ芋
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AR_TARO.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AR_TARO.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AR_TARO.get()))
+                .build(out, rl("cloche", "hac", "aroid_common"));
+        // 蒟蒻芋
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AR_KONJAC.get()))
+                .addResult(new ItemStack(FoodInit.FLOWER_KONJAC.get()))
+                .addInput(new ItemStack(FoodInit.BLOCK_AR_KONJAC.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AR_KONJAC.get()))
+                .build(out, rl("cloche", "hac", "aroid_rare"));
         // 藜
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AM_GOOSEFOOT.get(), 2))
                 .addInput(new ItemStack(FoodInit.BLOCK_AM_GOOSEFOOT.get()))
@@ -166,7 +188,7 @@ public class Recipes extends RecipeProvider {
                 .build(out, rl("cloche", "hac", "brassica_rare"));
         // 大根
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_BR_RADISH.get(), 2))
-                .addInput(new ItemStack(FoodInit.BLOCK_BR_RAPESEED.get()))
+                .addInput(new ItemStack(FoodInit.BLOCK_BR_RADISH.get()))
                 .addSoil(Blocks.DIRT)
                 .setTime(800)
                 .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_BR_RADISH.get()))

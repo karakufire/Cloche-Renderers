@@ -1,4 +1,4 @@
-// 1.19.2	2025-01-18T18:02:30.5375434	Recipes
+// 1.19.2	2025-06-15T11:15:30.1959734	Recipes
 3e9466f3766ebfb3ed5750f60f984d2c1adc076b data/cloche_renderers/recipes/cloche/hac/allium_common.json
 b175688f2a1a43037180e6ba8c45ea341deae4f3 data/cloche_renderers/recipes/cloche/hac/allium_epic.json
 e90e742d2457a876b93e1133de705bffa7c82c82 data/cloche_renderers/recipes/cloche/hac/allium_rare.json
@@ -10,12 +10,15 @@ e66d72292239049b7250d28ba010fe16176a631e data/cloche_renderers/recipes/cloche/ha
 a176e36804b5a77ced3694c0a4cb8787b69a5937 data/cloche_renderers/recipes/cloche/hac/apium_epic.json
 eaa4f7eb08ddf239855fa30ad96880afa8d387e2 data/cloche_renderers/recipes/cloche/hac/apium_rare.json
 b18417231cd40f5e0a0d5f352c32c947dfa3748f data/cloche_renderers/recipes/cloche/hac/apium_wild.json
+b67ec09a751f5b151565bf0ac8aea69e2c062ccd data/cloche_renderers/recipes/cloche/hac/aroid_common.json
+73436f6babb353f427ed14af8026d99e08493d2e data/cloche_renderers/recipes/cloche/hac/aroid_rare.json
+05f9807b4e4ac4bf04dfc0ca49387331a380bd4e data/cloche_renderers/recipes/cloche/hac/aroid_wild.json
 fc37e4087942cd88bf7820ef2611ed3801867238 data/cloche_renderers/recipes/cloche/hac/aster_common.json
 67241cc2704942b69fafafdc75f921d658792c81 data/cloche_renderers/recipes/cloche/hac/aster_epic.json
 1a503472d732cd042fbf48855096bde49530f76a data/cloche_renderers/recipes/cloche/hac/aster_rare.json
 675e6232fb99fb320f59d37e27ce05d98bc130f5 data/cloche_renderers/recipes/cloche/hac/aster_wild.json
 ff915eda2b165d16f7b397fe23fd29f738fac6b7 data/cloche_renderers/recipes/cloche/hac/brassica_common.json
-1e53c633bb0cb62b8d474aa48be50e9e0c6bd156 data/cloche_renderers/recipes/cloche/hac/brassica_epic.json
+20c5af60e79c0f212f9062235bac7ea446583235 data/cloche_renderers/recipes/cloche/hac/brassica_epic.json
 8c757b87cc11f43194c52ea1a90063649fa6e91a data/cloche_renderers/recipes/cloche/hac/brassica_rare.json
 387ff384805b310f8d38e3824272f99ad5eabae4 data/cloche_renderers/recipes/cloche/hac/brassica_wild.json
 9d07c5e24972da8d9326bdd0222ea88c440e8449 data/cloche_renderers/recipes/cloche/hac/capsicum_common.json

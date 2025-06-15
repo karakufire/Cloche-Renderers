@@ -1,16 +1,16 @@
 {
   "type": "immersiveengineering:cloche",
   "input": {
-    "item": "dcs_climate:food/cropblock_brassica_epic"
+    "item": "dcs_climate:food/cropblock_aroids_wild"
   },
   "render": {
     "type": "hac_crop_single",
-    "block": "dcs_climate:food/cropblock_brassica_epic"
+    "block": "dcs_climate:food/cropblock_aroids_wild"
   },
   "results": [
     {
       "count": 2,
-      "item": "dcs_climate:food/crop_brassica_epic"
+      "item": "dcs_climate:food/crop_aroids_wild"
     }
   ],
   "soil": {

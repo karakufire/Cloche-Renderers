@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "dcs_climate:food/cropblock_aroids_rare"
+  },
+  "render": {
+    "type": "hac_crop_single",
+    "block": "dcs_climate:food/cropblock_aroids_rare"
+  },
+  "results": [
+    {
+      "item": "dcs_climate:food/crop_aroids_rare"
+    },
+    {
+      "item": "dcs_climate:food/flower_aroids_konjac"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
+}
