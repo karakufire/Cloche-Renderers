@@ -813,6 +813,6 @@ public class Recipes extends RecipeProvider {
     }
 
     private static ResourceLocation rl(String... path) {
-        return new ResourceLocation(ClocheRenderers.MODID, Arrays.stream(path).collect(Collectors.joining("/")));
+        return ResourceLocation.fromNamespaceAndPath(ClocheRenderers.MODID, Arrays.stream(path).collect(Collectors.joining("/")));
     }
 }

@@ -16,8 +16,8 @@ public class ClocheRenderers {
     public static final String MODID = "cloche_renderers";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public ClocheRenderers() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public ClocheRenderers(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
         initRenders();
     }
 
