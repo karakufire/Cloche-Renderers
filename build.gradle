@@ -156,8 +156,8 @@ dependencies {
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
-    compileOnly fg.deobf("curse.maven:HeatAndClimate-296096:6613560")
-    runtimeOnly fg.deobf("curse.maven:HeatAndClimate-296096:6613560")
+    compileOnly fg.deobf("curse.maven:HeatAndClimate-296096:7910963")
+    runtimeOnly fg.deobf("curse.maven:HeatAndClimate-296096:7910963")
 
     compileOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${minecraft_version}-${ie_version}")
     runtimeOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${minecraft_version}-${ie_version}")

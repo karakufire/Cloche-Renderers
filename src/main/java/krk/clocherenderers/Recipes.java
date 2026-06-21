@@ -109,6 +109,30 @@ public class Recipes extends RecipeProvider {
                 .addSoil(Blocks.DIRT).setTime(800)
                 .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AM_SPINACH.get()))
                 .build(out, rl("cloche", "hac", "amaranth_rare"));
+        // スノードロップ
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AMR_SNOWDROP.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AMR_SNOWDROP.get()))
+                .addSoil(Blocks.DIRT).setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AMR_SNOWDROP.get()))
+                .build(out, rl("cloche", "hac", "amaryllis_wild"));
+        // アマリリス
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AMR_AMARYLLIS.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AMR_AMARYLLIS.get()))
+                .addSoil(Blocks.DIRT).setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AMR_AMARYLLIS.get()))
+                .build(out, rl("cloche", "hac", "amaryllis_common"));
+        // 水仙
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AMR_DAFFODIL.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AMR_DAFFODIL.get()))
+                .addSoil(Blocks.DIRT).setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AMR_DAFFODIL.get()))
+                .build(out, rl("cloche", "hac", "amaryllis_rare"));
+        // 彼岸花
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AMR_LYCORIS.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_AMR_LYCORIS.get()))
+                .addSoil(Blocks.DIRT).setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_AMR_LYCORIS.get()))
+                .build(out, rl("cloche", "hac", "amaryllis_epic"));
         // 芹
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_AP_CELERY.get(), 2))
                 .addInput(new ItemStack(FoodInit.BLOCK_AP_CELERY.get()))
@@ -368,6 +392,27 @@ public class Recipes extends RecipeProvider {
                 .setTime(800)
                 .setRender(HaCCropRenderers.HAC_CROP_DOUBLE.reference(FoodInit.BLOCK_KN_INDIGO.get()))
                 .build(out, rl("cloche", "hac", "knotweed_rare"));
+        // 甘菜
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_LI_AMANA.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_LI_AMANA.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_LI_AMANA.get()))
+                .build(out, rl("cloche", "hac", "lily_wild"));
+        // 片栗
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_LI_FAWN.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_LI_FAWN.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_LI_FAWN.get()))
+                .build(out, rl("cloche", "hac", "lily_common"));
+        // 山百合
+        ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_LI_GOLDBAND.get(), 2))
+                .addInput(new ItemStack(FoodInit.BLOCK_LI_GOLDBAND.get()))
+                .addSoil(Blocks.DIRT)
+                .setTime(800)
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_LI_GOLDBAND.get()))
+                .build(out, rl("cloche", "hac", "lily_rare"));
         // 綱麻
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_ML_JUTE.get(), 2))
                 .addInput(new ItemStack(FoodInit.BLOCK_ML_JUTE.get()))

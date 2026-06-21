@@ -56,7 +56,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
             this.block = block;
             this.alias = (IClimateCrop) this.block;
             if (this.alias.getGrowType(this.alias.getTier()) != growType && verbose)
-                ClocheRenderers.LOGGER.warn(String.format("Block %s grow type is not %s, thus may not be displayed correctly.", block.getDescriptionId(), growType.toString()));
+                ClocheRenderers.LOGGER.warn("Block {} grow type is not {}, thus may not be displayed correctly.", block.getDescriptionId(), growType.toString());
             this.maxStage = this.alias.getGrownState(block.defaultBlockState()).getValue(stageProperty);
         }
 

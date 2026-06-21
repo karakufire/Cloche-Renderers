@@ -1,4 +1,4 @@
-// 1.19.2	2025-06-15T11:15:30.1959734	Recipes
+// 1.19.2	2026-04-12T02:27:40.877678	Recipes
 3e9466f3766ebfb3ed5750f60f984d2c1adc076b data/cloche_renderers/recipes/cloche/hac/allium_common.json
 b175688f2a1a43037180e6ba8c45ea341deae4f3 data/cloche_renderers/recipes/cloche/hac/allium_epic.json
 e90e742d2457a876b93e1133de705bffa7c82c82 data/cloche_renderers/recipes/cloche/hac/allium_rare.json
@@ -6,6 +6,10 @@ e90e742d2457a876b93e1133de705bffa7c82c82 data/cloche_renderers/recipes/cloche/ha
 e66d72292239049b7250d28ba010fe16176a631e data/cloche_renderers/recipes/cloche/hac/amaranth_common.json
 8e7feaf8cbfcbbc08823525186719d0b95c14107 data/cloche_renderers/recipes/cloche/hac/amaranth_rare.json
 2d73ca4023d819932b084dbe8624d3998c23b0a4 data/cloche_renderers/recipes/cloche/hac/amaranth_wild.json
+a4c197bdc18ee4f318afa4dc7730d31b9c79cf14 data/cloche_renderers/recipes/cloche/hac/amaryllis_common.json
+aa1d1454ddd20ba5f3757872566b756a74f32fa7 data/cloche_renderers/recipes/cloche/hac/amaryllis_epic.json
+953acce0d6aeae501e3a3df60a46784c97b2730a data/cloche_renderers/recipes/cloche/hac/amaryllis_rare.json
+8066cee76a31c83aef5bd9fea6e0d774781641a4 data/cloche_renderers/recipes/cloche/hac/amaryllis_wild.json
 507f0c8e97bd7dfe6d0312b1fd01499ae120cb6b data/cloche_renderers/recipes/cloche/hac/apium_common.json
 a176e36804b5a77ced3694c0a4cb8787b69a5937 data/cloche_renderers/recipes/cloche/hac/apium_epic.json
 eaa4f7eb08ddf239855fa30ad96880afa8d387e2 data/cloche_renderers/recipes/cloche/hac/apium_rare.json
@@ -46,6 +50,9 @@ d4c1fd39ed15d7082d624ff4491c4ca7380b1221 data/cloche_renderers/recipes/cloche/ha
 cac334342754fb1e2873fa098f9884b0a7b6f292 data/cloche_renderers/recipes/cloche/hac/knotweed_common.json
 13e990aa06a1658332b69819e182c77175caeef4 data/cloche_renderers/recipes/cloche/hac/knotweed_rare.json
 31178a4160db45daa458a0f578b829f684d4ad95 data/cloche_renderers/recipes/cloche/hac/knotweed_wild.json
+bc159b6a28c9b1ea5367f48f3f07260ed3b91672 data/cloche_renderers/recipes/cloche/hac/lily_common.json
+260098c36fab20b58d2b9ed841bc6d6434a2e040 data/cloche_renderers/recipes/cloche/hac/lily_rare.json
+66e301f6a2a28b0e9fc2b8a192a4fe57ccc5ed5c data/cloche_renderers/recipes/cloche/hac/lily_wild.json
 a93f71963852a05108b2f392b2882cf2f6e4cc56 data/cloche_renderers/recipes/cloche/hac/mallow_common.json
 c92680cb573fc6ce94b40e616b6329242585b80f data/cloche_renderers/recipes/cloche/hac/mallow_epic.json
 ae3b54e2ce06a4b93f7fa39b3188eaed8db543a7 data/cloche_renderers/recipes/cloche/hac/mallow_rare.json
