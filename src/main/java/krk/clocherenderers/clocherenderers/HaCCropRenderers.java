@@ -63,6 +63,11 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
         protected int age(float growth) {
             return Math.min(this.maxStage, Math.round(this.maxStage * growth));
         }
+
+        @Override
+        public Collection<Pair<BlockState, Transformation>> getBlocks(ItemStack stack, float growth) {
+            return ImmutableList.of(Pair.of(this.block.defaultBlockState().setValue(stageProperty, this.age(growth)), new Transformation(null)));
+        }
     }
 
     public static class RenderHaCCropSingle extends AbstractRenderHaCCrop {
@@ -78,17 +83,17 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
 
         @Override
         public Collection<Pair<BlockState, Transformation>> getBlocks(ItemStack stack, float growth) {
-            return ImmutableList.of(Pair.of(
-                    this.block.defaultBlockState().setValue(stageProperty, this.age(growth)),
-                    new Transformation(null)
-            ));
+            return super.getBlocks(stack, growth);
         }
     }
 
     public static class RenderHaCCropDouble extends AbstractRenderHaCCrop {
 
+        private final boolean suitable;
+
         public RenderHaCCropDouble(Block block) {
             super(block, CropGrowType.DOUBLE);
+            this.suitable = block.defaultBlockState().hasProperty(DCState.DOUBLE);
         }
 
         @Override
@@ -99,7 +104,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
         @Override
         public Collection<Pair<BlockState, Transformation>> getBlocks(ItemStack stack, float growth) {
             int age = this.age(growth);
-            if (age > 1) {
+            if (suitable && age > 1) {
                 return ImmutableList.of(
                         Pair.of(this.block.defaultBlockState().setValue(stageProperty, age),
                                 new Transformation(null)),
@@ -107,7 +112,7 @@ public enum HaCCropRenderers implements ICustomRenderers<HaCCropRenderers> {
                                 new Transformation(new Vector3f(0, 1, 0), null, null, null))
                 );
             }
-            return ImmutableList.of(Pair.of(this.block.defaultBlockState().setValue(stageProperty, age), new Transformation(null)));
+            return super.getBlocks(stack, growth);
         }
     }
 

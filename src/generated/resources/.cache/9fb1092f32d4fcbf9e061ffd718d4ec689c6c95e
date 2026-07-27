@@ -1,4 +1,4 @@
-// 1.19.2	2026-04-12T02:27:40.877678	Recipes
+// 1.19.2	2026-07-27T21:43:02.0160461	Recipes
 3e9466f3766ebfb3ed5750f60f984d2c1adc076b data/cloche_renderers/recipes/cloche/hac/allium_common.json
 b175688f2a1a43037180e6ba8c45ea341deae4f3 data/cloche_renderers/recipes/cloche/hac/allium_epic.json
 e90e742d2457a876b93e1133de705bffa7c82c82 data/cloche_renderers/recipes/cloche/hac/allium_rare.json
@@ -83,8 +83,8 @@ ac2294f9b822664478bd9b524e4ffb042f0e83e1 data/cloche_renderers/recipes/cloche/ha
 33a554004e48763e7c316810cd71f787944864a2 data/cloche_renderers/recipes/cloche/hac/reed_common.json
 edfaa404a2bed10526aeb9c8fa273aeeccb425cb data/cloche_renderers/recipes/cloche/hac/reed_rare.json
 52d1a9b28f7615316d19df2b1e3cd954850875e2 data/cloche_renderers/recipes/cloche/hac/reed_wild.json
-f860a8ad3f83eaeddd8955d6d3cec7aff5be7942 data/cloche_renderers/recipes/cloche/hac/rice_common.json
-3090d0fc744b392829772be1d3c637fa682f6d48 data/cloche_renderers/recipes/cloche/hac/rice_rare.json
+567285196deafcb625122513ae66fa5f6020711c data/cloche_renderers/recipes/cloche/hac/rice_common.json
+8a564d8afc004bd2c7d63b1f227740256a770892 data/cloche_renderers/recipes/cloche/hac/rice_rare.json
 23268ae93c6ef11858cd3ba238a743f58e9fa4b4 data/cloche_renderers/recipes/cloche/hac/rice_wild.json
 3847c2b27f2c083ca7549dd4585abb80703f2f03 data/cloche_renderers/recipes/cloche/thermal/amaranth.json
 2ad26fd8a5043b663239677ed52816998f2d2c59 data/cloche_renderers/recipes/cloche/thermal/barley.json

@@ -608,14 +608,14 @@ public class Recipes extends RecipeProvider {
                 .addInput(new ItemStack(FoodInit.BLOCK_RI_SHORT.get()))
                 .addSoil(Ingredient.of(Blocks.DIRT, Blocks.MUD))
                 .setTime(800)
-                .setRender(HaCCropRenderers.HAC_CROP_DOUBLE.reference(FoodInit.BLOCK_RI_SHORT.get()))
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_RI_SHORT.get()))
                 .build(out, rl("cloche", "hac", "rice_common"));
         // 香り米
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_RI_AROMA.get(), 2))
                 .addInput(new ItemStack(FoodInit.BLOCK_RI_AROMA.get()))
                 .addSoil(Ingredient.of(Blocks.DIRT, Blocks.MUD))
                 .setTime(800)
-                .setRender(HaCCropRenderers.HAC_CROP_DOUBLE.reference(FoodInit.BLOCK_RI_AROMA.get()))
+                .setRender(HaCCropRenderers.HAC_CROP_SINGLE.reference(FoodInit.BLOCK_RI_AROMA.get()))
                 .build(out, rl("cloche", "hac", "rice_rare"));
         // ナイトシェード
         ClocheRecipeBuilder.builder(new ItemStack(FoodInit.CROP_SL_NIGHTSHADE.get(), 2))
